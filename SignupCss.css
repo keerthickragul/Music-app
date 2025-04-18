@@ -1,0 +1,155 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    height: 550px;
+    background-color: #515f92;
+    margin-left: 500px;
+    margin-top: 120px;
+    border-radius: 30px;
+    /* box-sizing: border-box; */
+    cursor:default;
+    user-select: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.signup-outer {
+    background-image: url("https://img.freepik.com/free-vector/glowing-musical-pentagram-background-with-sound-notes_1017-31220.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.signup-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    width: 100%;
+    /* box-sizing: border-box; */
+    margin-top: 35px;
+    margin-left: 0px;
+   
+}
+.signup-para{
+    color: #ffffff;
+    font-size: 30px;
+}
+.signup-icon-container{
+    
+    display: flex;
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+    /* border: 2px solid white; */
+    
+
+}
+.signup-icon{
+    text-decoration: none;
+    color: #ffffff;
+}
+.music-icon{
+    color: #ffffff;
+    margin-left: 300px;
+}
+.signup-input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    height: 300px;
+    /* border: 2px solid black; */
+}
+/* .signup-input{
+    margin-bottom: 20px;
+    width: 70%;
+    height: 45px;
+    border: 2px solid #7c87ab;
+    border-radius: 10px;
+    text-align: left;
+    font-size: large;
+    background-color: #515f92;
+}
+.signup-input::placeholder{
+    color: #ffffff;
+    opacity: 1;
+    outline: none; 
+}
+.signup-input:focus{
+    border: none;
+ 
+} */
+
+
+.signup-input {
+    margin-bottom: 20px;
+    width: 70%;
+    height: 45px;
+    border: 2px solid #7c87ab;
+    border-radius: 10px;
+    text-align: left;
+    font-size: large;
+    background-color: #515f92; /* Solid color for the background */
+    padding-left: 10px; /* Space for text */
+    color: white; /* Text color */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.signup-input::placeholder {
+    color: #ffffff;
+    opacity: 1;
+    outline: none; 
+}
+
+.signup-input:focus {
+    border: 2px solid #ffffff; /* Focus border color */
+    outline: none; /* Remove default outline */
+    background-color: #6c7db2; /* Less transparent focus background color */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Reduce transparency of the shadow */
+}
+
+
+
+.signup-btn-container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-btn{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    font-size: large;
+    border: 2px solid #7c87ab;
+    color: #3e476b;
+}
+.signup-btn:hover{
+    background-color: #3e476b;
+    color:#ffffff ;
+}
+.signup-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.signup-value{
+    color: #ffffff;
+    font-size: large;
+}
+.signup-value-anchor{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: large;
+}
+
+

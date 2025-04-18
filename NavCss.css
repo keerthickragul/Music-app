@@ -1,0 +1,86 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* border-radius: 15px; */
+    padding-left: 70%;
+    /* margin-top: 20px; */
+    width: 100%;
+    height: 75px;   
+    border-bottom: 2px solid #d2fbfc;
+    box-sizing: border-box;
+    cursor: default;
+    user-select: none;
+    padding: 0 20px;
+    background-color: #15182b;
+    font-family: "Arial";
+    
+}
+
+.navbar a{
+
+    text-decoration: none;
+    color: black;
+    margin: 0 25px;
+    font-size: larger;
+    font-weight: 600;
+    color: white;
+}
+.navbar a:hover{
+    color: #fd4e88;
+}
+
+.topics{
+    margin-left: 30%;
+    /* background-color: white; */
+}
+
+.itembox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+    height: 550px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.itemcontainer{
+    /* position: absolute; */
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.items{
+    width: 220px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+.searchbar{
+    width: 30%;
+    height: 45px;
+    padding-right: 25%;
+    margin-top: 10px;
+   
+    
+}
+
+.searchbar input {
+    width: 100%;
+    height: 75%; /* Slightly smaller than navbar height for padding */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+.logo{
+    /* margin-right: auto; */
+    color: white;
+}
+

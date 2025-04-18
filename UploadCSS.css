@@ -1,0 +1,94 @@
+.upload-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    width: 100%;
+    height: 728px;
+    background-color: #15182b;
+    overflow: hidden;
+    user-select: none;
+    cursor: default;
+}
+.upload-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid white;
+}
+.upload-heading{
+    font-size: 2rem; /* Increased font size for better visibility */
+    color: #d2fbfc;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow */
+    text-transform: uppercase; /* Makes text uppercase */
+    letter-spacing: 2px; /* Adds spacing between letters */
+    /* margin-bottom: 20px; Adds space below the title */
+    transition: color 0.3s ease; 
+}
+.upload-content{
+    margin-top: 40px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 550px;
+    background-color: #25262e;
+    
+    border-radius: 10px;
+    padding: 20px; /* Add padding for inner spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a shadow for depth */
+
+}
+.upload-label {
+    font-size: 1.5rem; /* Increased font size */
+    margin-bottom: -3px; /* Reduced gap between label and input */
+    color: #fd4e88;
+    display: block;
+    margin-left: 30px;
+  }
+  
+  .upload-input {
+    width: 75%;
+    padding: 12px; /* Slightly increased padding for better feel */
+    margin-bottom: 15px;
+    margin-left: 30px;
+    border: 1px solid white; /* Updated border color */
+    border-radius: 5px;
+    background-color: #1d1f2b;
+    color: #d2fbfc; /* Updated text color */
+    font-size: 1.2rem; /* Increased font size */
+    transition: border-color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .upload-input:focus {
+    outline: none;
+    border-color: #8f0a2a;
+    background-color: #282a36;
+  }
+  
+  .upload-input:hover {
+    transform: translateY(-2px); /* Lifts the item on hover */
+    background-color: #353646; /* Changes background color on hover */
+  }
+  
+  .upload-input::placeholder {
+    color: #888;
+  }
+
+  .upload-btn{
+   width: 150px;
+   height: 40px;
+   margin-left: 200px;
+   border-radius: 10px;
+   background-color: #fd4e88;
+   border: 1px solid #fd4e88;
+   color: #d2f6f0;
+   font-family: "Arial";
+   font-size: larger;
+
+  }
+  .upload-btn:hover{
+    transform: translateY(-2px);
+  }
